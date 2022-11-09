@@ -27,7 +27,7 @@ To play:
 
 ## VIDEO
 
-[Here it is a 90 seconds screencast]()
+[Here it is an 85 seconds screencast](https://youtu.be/l4lq4iBOCF8)
 
 ## SETUP
 
