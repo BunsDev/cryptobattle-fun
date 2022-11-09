@@ -99,7 +99,7 @@ function PlayerPreview({ address, onReset, label }) {
         </div>
         <button
           onClick={onReset}
-          className="border border-1 bg-gray-50 border-gray-300 hover:bg-gray-100 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
+          className="rounded-md border border-1 bg-gray-50 border-gray-300 hover:bg-gray-100 focus:border-gray-500 focus:outline-none focus:ring-1 focus:ring-gray-500"
         >
           <XMarkIcon className="h-5 w-5 text-gray-700" aria-hidden="true" />
         </button>
@@ -167,7 +167,7 @@ export default class Battle extends React.Component {
                   pathname: "/results",
                   search: `?playerOne=${playerOne}&playerTwo=${playerTwo}`,
                 }}
-                className={`items-center justify-center rounded-md border border-1 bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-4 md:px-10 md:text-lg ${
+                className={`items-center justify-center rounded-md border border-1 bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-6 md:px-10 md:text-lg ${
                   disabled ? "disabled" : ""
                 }`}
               >
