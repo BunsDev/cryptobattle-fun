@@ -6,6 +6,16 @@ function calculateScore(
   social,
   governance
 ) {
+  if (
+    !transactions ||
+    !exchanges ||
+    !collectibles ||
+    !donations ||
+    !social ||
+    !governance
+  ) {
+    return 0;
+  }
   return (
     transactions + exchanges + collectibles + donations + social + governance
   );
