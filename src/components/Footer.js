@@ -163,7 +163,7 @@ const Footer = () => {
             href="https://gitcoin.co"
             className="text-blue-600 hover:underline"
           >
-            Gicoin
+            Gitcoin
           </a>
         </p>
       </div>
